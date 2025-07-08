@@ -5081,11 +5081,7 @@ a.close.disabled {
     display: none; }
 
 .popover-body {
-  padding: 0.5rem 0.75rem;
-  color: #212529; }
-
-.carousel {
-  position: relative; }
+  
 
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
@@ -8139,11 +8135,12 @@ body {
   line-height: 1.8;
   font-weight: 400;
   color: #999999; 
-height:100wh;}
+height:100vh;}
   body.menu-show {
     position: fixed;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+  }
 
 a {
   -webkit-transition: .3s all ease;
